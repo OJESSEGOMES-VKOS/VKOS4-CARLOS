@@ -1,0 +1,23 @@
+{
+  "name": "vkos",
+  "version": "4.1.0",
+  "private": true,
+  "description": "VKOS: VirtuoKingdom Operational System com construção secure-by-default e checkup de segurança/LGPD.",
+  "type": "module",
+  "scripts": {
+    "setup": "node node_modules/playwright/cli.js install chromium",
+    "carrossel": "node templates/carrossel/render.js",
+    "stories": "node templates/stories/render.js",
+    "modelo:check": "node scripts/check-modelo.mjs",
+    "security:check": "node scripts/security-checkup.mjs .",
+    "test": "node --test tests/*.test.mjs",
+    "test:coverage": "node --experimental-test-coverage --test-coverage-lines=80 --test-coverage-branches=80 --test-coverage-functions=80 --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  },
+  "devDependencies": {
+    "@playwright/mcp": "0.0.79",
+    "@upstash/context7-mcp": "4.0.2"
+  }
+}

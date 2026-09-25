@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": [
+        "node_modules/@playwright/mcp/cli.js",
+        "--isolated",
+        "--headless",
+        "--block-service-workers",
+        "--allowed-origins",
+        "http://localhost:*;https://localhost:*;http://127.0.0.1:*;https://127.0.0.1:*",
+        "--output-max-size",
+        "52428800",
+        "--timeout-action",
+        "10000",
+        "--timeout-navigation",
+        "30000"
+      ],
+      "startup_timeout_sec": 30
+    },
+    "context7": {
+      "command": "node",
+      "args": ["node_modules/@upstash/context7-mcp/dist/index.js"],
+      "startup_timeout_sec": 30
+    }
+  }
+}

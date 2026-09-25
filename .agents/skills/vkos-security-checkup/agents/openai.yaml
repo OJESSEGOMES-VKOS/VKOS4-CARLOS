@@ -1,0 +1,4 @@
+interface:
+  display_name: "VKOS Security Checkup"
+  short_description: "Auditoria técnica e LGPD com evidências"
+  default_prompt: "Use $vkos-security-checkup para auditar este projeto e gerar um relatório priorizado."

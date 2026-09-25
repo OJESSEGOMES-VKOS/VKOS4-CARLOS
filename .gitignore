@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Saída gerada pelo comprador (o conteúdo dele é dele; não versionar por padrão)
+conteudo/**/instagram/*.png
+conteudo/**/instagram-stories/*.png
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Segredos e credenciais locais
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*.json
+secrets/
+
+# Estado local de agentes e relatórios gerados
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+security-reports/
+
+# Dumps e artefatos que podem conter dados pessoais
+*.dump
+*.sql.gz
+backups/

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Segurança VKOS"
+  short_description: "Checkup completo de segurança e LGPD"
+  default_prompt: "Use $seguranca para auditar este projeto antes da entrega."
+
