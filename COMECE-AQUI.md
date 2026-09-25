@@ -17,16 +17,25 @@ projeto, use `/seguranca`.
 
 ---
 
-## Passo 0: Pegue a pasta do VKOS
+## Passo 0: Instale o Git e pegue a pasta do VKOS
 
-1. Abra o link do VKOS no GitHub: https://github.com/OJESSEGOMES-VKOS/VKOS4-CARLOS
-2. Clique no botão verde **Code** e depois em **Download ZIP**.
-3. Ache o arquivo baixado (normalmente na pasta **Downloads**), clique com o botão direito nele
-   e escolha **Extrair tudo** (ou "Descompactar"). Isso cria a pasta **VKOS4-CARLOS-main**.
-4. Renomeie essa pasta pra **vkos4** e arraste pra um lugar fácil, tipo a **Área de Trabalho**.
+O **Git** é um programinha gratuito que baixa (e depois atualiza) a pasta do VKOS certinha,
+sem risco de bagunçar nome de pasta.
 
-> Já usa git? Pode clonar direto:
-> `git clone https://github.com/OJESSEGOMES-VKOS/VKOS4-CARLOS.git vkos4`
+1. Entre em [git-scm.com/downloads](https://git-scm.com/downloads) e baixe a versão do seu
+   sistema (Windows ou Mac). Abra o instalador e clique em **avançar** até o fim, sem mudar
+   nada.
+2. Escolha onde vai guardar a pasta do VKOS, por exemplo a **Área de Trabalho**. Abra essa
+   pasta, clique com o botão direito dentro dela (num espaço vazio) e procure a opção
+   **"Git Bash Here"** (ou "Abrir Git Bash aqui"). Isso abre uma janela preta de comando.
+3. Cole este comando nela e dê Enter:
+   ```bash
+   git clone https://github.com/OJESSEGOMES-VKOS/VKOS4-CARLOS.git vkos4
+   ```
+4. Espere terminar. Vai aparecer uma pasta nova chamada **vkos4** ali, já pronta.
+
+> Se um dia o VKOS receber uma atualização, você não precisa baixar tudo de novo: abra o
+> "Git Bash Here" dentro da pasta `vkos4` e rode `git pull`.
 
 ---
 

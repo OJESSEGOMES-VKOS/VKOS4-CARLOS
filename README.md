@@ -34,18 +34,22 @@ como parte da arquitetura, dos testes e do gate de publicação:
 
 ## Instalação rápida (leia isto primeiro)
 
-1. **Baixe:** botão verde **Code → Download ZIP** nesta página, extraia e renomeie a pasta pra `vkos4`.
-2. **Instale o [VS Code](https://code.visualstudio.com/)** e, dentro dele, a extensão **Claude Code**
+1. **Instale o [Git](https://git-scm.com/downloads)** (avançar, avançar, concluir).
+2. **Baixe a pasta:** abra "Git Bash Here" numa pasta como a Área de Trabalho e rode:
+   ```bash
+   git clone https://github.com/OJESSEGOMES-VKOS/VKOS4-CARLOS.git vkos4
+   ```
+3. **Instale o [VS Code](https://code.visualstudio.com/)** e, dentro dele, a extensão **Claude Code**
    (precisa de uma conta Anthropic com plano pago; é ela que faz o sistema funcionar).
-3. **Instale o [Node.js LTS](https://nodejs.org/)** (avançar, avançar, concluir).
-4. **Abra a pasta `vkos4`** no VS Code (*Arquivo → Abrir Pasta*).
-5. **Terminal → Novo Terminal** e rode, um por vez:
+4. **Instale o [Node.js LTS](https://nodejs.org/)** (avançar, avançar, concluir).
+5. **Abra a pasta `vkos4`** no VS Code (*Arquivo → Abrir Pasta*).
+6. **Terminal → Novo Terminal** e rode, um por vez:
    ```bash
    npm ci --ignore-scripts
    npm run setup
    ```
-6. **Abra o Claude Code** na lateral e digite `/instalar`. Ele monta o Cérebro do seu negócio em ~10 min.
-7. **Pronto.** Digite `/vkos` pra ver tudo que dá pra fazer. Primeiro teste bom: `/semana`.
+7. **Abra o Claude Code** na lateral e digite `/instalar`. Ele monta o Cérebro do seu negócio em ~10 min.
+8. **Pronto.** Digite `/vkos` pra ver tudo que dá pra fazer. Primeiro teste bom: `/semana`.
 
 Passo a passo detalhado, com o que fazer se algo der errado: **[COMECE-AQUI.md](COMECE-AQUI.md)**.
 
